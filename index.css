@@ -8,3 +8,40 @@ body{
 }
 
 /* Header */
+header .logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+header input{
+    border-style: none; 
+    border-radius: 5px;
+}
+
+header .search, header .moon, header .menu{
+    border-style: none; 
+    background: none;
+    
+}
+header .moon, header .menu{
+    font-size: 30px;
+    margin: 0 15px;
+}
+header .list__items{
+position: relative;
+left: 0;
+top: 0;
+}
+header .list__items .search{
+    position: relative;
+    right: 30px;
+    bottom: 5px;
+
+}
+header input{
+    width: 230px;
+}
+
+
