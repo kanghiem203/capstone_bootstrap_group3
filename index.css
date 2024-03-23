@@ -52,6 +52,7 @@ header .list__items .search{
 }
 header input{
     width: 230px;
+    outline: none;
 }
 .banner button{
     border: 3px solid white;
