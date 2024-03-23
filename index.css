@@ -149,7 +149,7 @@ header input{
 }
 /* end achivement */
 /* star decription */
-.decription__items p {
+.decription__items h4 {
     display: block;
     color: #232121;
     font-weight: 700;
@@ -158,8 +158,13 @@ header input{
     font-size: 20px;
 }
 .decription__img img {
-    background-position: left;
-    background-size:cover ;
+    box-sizing: inherit;
+    height: 100%;
+    width: 100%;
+    background-position:center;
+    background-size:cover;
+    
+
 }
 .decription {
     background-color: #ff6600;
@@ -179,5 +184,32 @@ header input{
     font-size: 25px;
     line-height: 70px;
 }
-
+.decription__title h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    display: block;
+    font-family: 'Pacifico', cursive;    
+    color: #fff;
+   
+}
+.decription__title h3 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.decription__title p {
+    color: #ffdfc9;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+.decription__items p {
+    color: #ffdfc9;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
 
