@@ -1,74 +1,82 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Quicksand', sans-serif;
 }
-.title p{
+
+.title p {
     font-family: "Pacifico", cursive;
-  font-weight: 400;
-  color: #ff6600;
-  font-size: 20px;
+    font-weight: 400;
+    color: #ff6600;
+    font-size: 20px;
 }
 
 /* Header */
-header{
-    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),url(./images/banner1.jpg);
+header {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(images/banner1.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 650px;
 }
 
-header .logo a{
+header .logo a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-size: 35px;
 }
 
-header input{
-    border-style: none; 
+header input {
+    border-style: none;
     border-radius: 5px;
 }
 
-header .search, header .moon, header .menu{
-    border-style: none; 
+header .search, header .moon, header .menu {
+    border-style: none;
     background: none;
 
-    
+
 }
-header .moon, header .menu{
+
+header .moon, header .menu {
     font-size: 30px;
     margin: 0 15px;
     color: white;
 }
-header .list__items{
-position: relative;
-left: 0;
-top: 0;
+
+header .list__items {
+    position: relative;
+    left: 0;
+    top: 0;
 }
-header .list__items .search{
+
+header .list__items .search {
     position: relative;
     right: 30px;
     bottom: 5px;
 
 }
-header input{
+
+header input {
     width: 230px;
     outline: none;
 }
-.banner button{
+
+.banner button {
     border: 3px solid white;
-    background:none;
+    background: none;
     color: white;
     border-radius: 5px;
     transition: all 0.5s;
 
 }
-.banner button:hover{
+
+.banner button:hover {
     border: 3px solid white;
     background-color: white;
     color: #ff6600;
@@ -76,28 +84,30 @@ header input{
 }
 
 /* Categories */
-.categories .list__categories1 img{
-    border-radius: 10px;  
-    transition: all 0.5s;  
+.categories .list__categories1 img {
+    border-radius: 10px;
+    transition: all 0.5s;
 }
 
 
 
-.categories .list__categories1 .row p{
+.categories .list__categories1 .row p {
     position: relative;
-    
+
     padding: 0px 40px;
     left: 0;
 
-    
+
 }
-.categories .list__categories1 .title h2{
+
+.categories .list__categories1 .title h2 {
     font-size: 35px;
     font-weight: 530;
     line-height: 50px;
     position: relative;
     bottom: 20px;
 }
+
 /* .fs-5{
     background-color: rgba(0, 0, 0, 0.112);
     position: relative;
@@ -108,7 +118,7 @@ header input{
     height: 86%;
 } */
 
-.title__item{
+.title__item {
     background-color: rgba(0, 0, 0, 0.11);
     position: relative;
     bottom: 86%;
@@ -117,40 +127,47 @@ header input{
     height: 86%;
     transition: all 0.5s;
 }
-.title__item p{
+
+.title__item p {
     position: absolute;
     top: 80%;
 }
-.title__item:hover{
+
+.title__item:hover {
     background-color: rgba(240, 248, 255, 0.09);
     cursor: pointer;
 }
+
 /* Star css about us Thẩm  */
-   /* star achivement */
-{
+/* star achivement */
+/* .container{
     width: 100%;
     height: 100%;
-}
-.achivement__title  h3{
+} */
+.achivement__title h3 {
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
 }
+
 .achivement__title h6 {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
-    color:#ff6600;
+    color: #ff6600;
     display: block;
     font-family: 'Pacifico', cursive;
 }
+
 .aboutUS p {
+
     font-size: 18px;
     line-height: 28px;
     color: rgba(22, 28, 45, 0.7);
     font-family: 'Quicksand', sans-serif;
 }
+
 /* end achivement */
 /* star decription */
 .decription__items h4 {
@@ -162,24 +179,24 @@ header input{
     font-size: 20px;
     text-align: left;
 }
+
 .decription__img img {
     height: 600px;
-    width: 100%;
+    width: 50%;
     box-sizing: inherit;
     background-repeat: no-repeat;
 
-    background-position:center;
-    background-size:cover;
-    overflow: hidden;}
-.decription {
-    width: 100%;
-    background-color: #ff6600;
-    height: 600px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
-.container {   width: 100%;
 
+.decription {
+    background-color: #ff6600;
+    /* height: 600px; */
 }
- .decription__items .icon {
+
+.decription__items .icon {
     background-color: white;
     width: 70px;
     height: 70px;
@@ -195,22 +212,25 @@ header input{
     letter-spacing: 1px;
     color: var(--primary-color);
     display: block;
-    font-family: 'Pacifico', cursive;    
+    font-family: 'Pacifico', cursive;
     color: #fff;
-   
+
 }
+
 .decription__title h3 {
     font-size: 40px;
     line-height: 48px;
     font-weight: 600;
     text-align: left;
 }
+
 .decription__title p {
     color: #ffdfc9;
     font-size: 20px;
     line-height: 28px;
     font-family: 'Quicksand', sans-serif;
 }
+
 .decription__items p {
     color: #ffdfc9;
     font-size: 18px;
@@ -218,21 +238,34 @@ header input{
     font-family: 'Quicksand', sans-serif;
     text-align: left;
 }
-.decription__items{
-    
-text-align: center;}
-.decription__title{
 
-padding-top: 80px;
-padding-left: 60px;
+.decription__items {
+
+
+    text-align: center;
 }
+
+.decription__title {
+
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
 .decription__img {
-    height: 100%; 
-    width: 50%;
-    position: relative;
-    display: inline-block;
+    background-image: url(./images/banner3.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-size: 160%;
+
 }
-.decription__img::before{
+
+/* .decription__img col-6 {
+    height: 100%;
+} */
+
+/* .decription__img::before{
     content: "";
     position: absolute;
     top: 0;
@@ -240,18 +273,23 @@ padding-left: 60px;
     width: 100%;
     height: 100%;
     background-color: rgb(16 15 19 / 46%);
-    pointer-events: none;   
-}
+    pointer-events: none;  
+} */
 
-.decription__items i  {
+.decription__items i {
+    height: 100%;
+    width: 100%;
     color: #ff6600;
     font-size: 25px;
     line-height: 70px;
 }
-.decription__items .icon{
-color: #ff6600;
-transition: 2s;
+
+.decription__items .icon {
+
+    color: #ff6600;
+    transition: 2s;
 }
+
 .decription__items .icon :hover {
 
     color: #fcb900;
