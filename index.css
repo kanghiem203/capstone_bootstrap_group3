@@ -127,6 +127,10 @@ header input{
 }
 /* Star css about us Thẩm  */
    /* star achivement */
+{
+    width: 100%;
+    height: 100%;
+}
 .achivement__title  h3{
     font-size: 38px;
     line-height: 48px;
@@ -159,14 +163,16 @@ header input{
     text-align: left;
 }
 .decription__img img {
+    height: 600px;
+    width: 100%;
     box-sizing: inherit;
     background-repeat: no-repeat;
-    height:600px;
-    width:100%;
+
     background-position:center;
     background-size:cover;
     overflow: hidden;}
 .decription {
+    width: 100%;
     background-color: #ff6600;
     height: 600px;
 }
@@ -216,10 +222,13 @@ header input{
     
 text-align: center;}
 .decription__title{
+
 padding-top: 80px;
 padding-left: 60px;
 }
 .decription__img {
+    height: 100%; 
+    width: 50%;
     position: relative;
     display: inline-block;
 }
@@ -231,7 +240,7 @@ padding-left: 60px;
     width: 100%;
     height: 100%;
     background-color: rgb(16 15 19 / 46%);
-    pointer-events: none;*/    
+    pointer-events: none;   
 }
 
 .decription__items i  {
@@ -244,6 +253,6 @@ color: #ff6600;
 transition: 2s;
 }
 .decription__items .icon :hover {
-    content: "";
+
     color: #fcb900;
 }
