@@ -156,18 +156,19 @@ header input{
     line-height: 1.2;
     margin-bottom: 15px;
     font-size: 20px;
+    text-align: left;
 }
 .decription__img img {
     box-sizing: inherit;
-    height: 100%;
-    width: 100%;
+    background-repeat: no-repeat;
+    height:600px;
+    width:100%;
     background-position:center;
     background-size:cover;
-    
-
-}
+    overflow: hidden;}
 .decription {
     background-color: #ff6600;
+    height: 600px;
 }
 .container {   width: 100%;
 
@@ -178,12 +179,9 @@ header input{
     height: 70px;
     text-align: center;
     border-radius: 6px;
+    margin-bottom: 20px;
 }
-.decription__items i {
-    color: #ff6600;
-    font-size: 25px;
-    line-height: 70px;
-}
+
 .decription__title h6 {
     font-size: 20px;
     font-weight: 400;
@@ -196,13 +194,14 @@ header input{
    
 }
 .decription__title h3 {
-    font-size: 38px;
+    font-size: 40px;
     line-height: 48px;
     font-weight: 600;
+    text-align: left;
 }
 .decription__title p {
     color: #ffdfc9;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -211,5 +210,40 @@ header input{
     font-size: 18px;
     line-height: 28px;
     font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+.decription__items{
+    
+text-align: center;}
+.decription__title{
+padding-top: 80px;
+padding-left: 60px;
+}
+.decription__img {
+    position: relative;
+    display: inline-block;
+}
+.decription__img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:-11px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16 15 19 / 46%);
+    pointer-events: none;*/    
 }
 
+.decription__items i  {
+    color: #ff6600;
+    font-size: 25px;
+    line-height: 70px;
+}
+.decription__items .icon{
+color: #ff6600;
+transition: 2s;
+}
+.decription__items .icon :hover {
+    content: "";
+    color: #fcb900;
+}
