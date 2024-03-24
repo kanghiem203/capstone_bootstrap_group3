@@ -145,6 +145,7 @@ header input {
     height: 100%;
 } */
 .achivement__title h3 {
+    margin-left: 80px;
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
@@ -158,14 +159,35 @@ header input {
     color: #ff6600;
     display: block;
     font-family: 'Pacifico', cursive;
+    margin-left: 90px;
+    margin-top: 40px;
 }
 
 .aboutUS p {
 
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     color: rgba(22, 28, 45, 0.7);
     font-family: 'Quicksand', sans-serif;
+
+}
+.aboutUS .pa {
+    font-size: 18px;
+    line-height: 28px;
+margin-bottom: 80px;
+margin-left: 80px;
+}
+.aboutUS .pp {
+    font-size: 18px;
+    line-height: 28px;
+margin-left: 80px;    
+}
+.phara {
+    width: 50%;
+}
+.phara p {
+    font-size: 18px;
+    line-height: 28px;
 }
 
 /* end achivement */
@@ -193,7 +215,6 @@ header input {
 
 .decription {
     background-color: #ff6600;
-    /* height: 600px; */
 }
 
 .decription__items .icon {
@@ -210,7 +231,6 @@ header input {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
-    color: var(--primary-color);
     display: block;
     font-family: 'Pacifico', cursive;
     color: #fff;
@@ -242,6 +262,7 @@ header input {
 .decription__items {
 
 
+margin-bottom: 50px;
     text-align: center;
 }
 
@@ -261,20 +282,6 @@ header input {
 
 }
 
-/* .decription__img col-6 {
-    height: 100%;
-} */
-
-/* .decription__img::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left:-11px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(16 15 19 / 46%);
-    pointer-events: none;  
-} */
 
 .decription__items i {
     height: 100%;
@@ -294,3 +301,24 @@ header input {
 
     color: #fcb900;
 }
+.decription__img {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .decription__img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+  }
+  
+  .decription__img img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
