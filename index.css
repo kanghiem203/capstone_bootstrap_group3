@@ -531,30 +531,65 @@ section.w3_stats {
 .new-block {
     background: var(--bg-color);
 }
-.w3l-videohny .history-info {
-    background: url(images/banner3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.w3l-videohny .history-info {
-    background: url(images/banner3.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    position: relative;
-    z-index: 1;
-    display: grid;
-    align-items: center;
-    min-height: 500px;
-    border-radius:6px;
-}
+/* Video */
 #small-dialog {
     max-width: 750px;
     margin: 40px auto;
     position: relative;
-}
+  }
+  div#small-dialog iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+    border-radius: 10px;
+  }
+  .mfp-close-btn-in .mfp-close {
+    color: #fff;
+  }
+  .mfp-close,
+  .mfp-close:active {
+    top: -40px;
+  }
+  
+  /**
+     * Fade-zoom animation for first dialog
+     */
+  /* start state */
+  .my-mfp-zoom-in .zoom-anim-dialog {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+  }
+  
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  
+  /* Dark overlay, start state */
+  .my-mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.95;
+  }
+  
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
+  
+/* Video */
  /* Footer */
  .w3l-footer-29-main {
     background: var(--footer-bg);
@@ -701,3 +736,70 @@ body a {
  #diner:hover{
     color: #ff6600;
  }
+ .w3l-copyright .copy-footer-29 a {
+    -webkit-transition: 0.5s all;
+   
+    color:#ff6600;
+}
+.w3l-copyright p.copy-footer-29 {
+    align-self: center;
+    color: #ddd;
+    font-size: 17px;
+}
+.col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.w3l-copyright {
+    padding: 1.2em 0;
+    background:#000;
+    border-top: 1px solid rgb(255 255 255 / 5%);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.w3l-copyright .copy-footer-29 a:hover
+ {
+ color:#fff;
+}
+/* css dark mode */
+/* .dark .aboutUS {
+    background: #404040;
+    
+}
+.dark h6  {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff6600;
+    display: block;
+    font-family: 'Pacifico', cursive;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.dark h3 {
+    margin-left: 80px;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+.dark .pp{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 80px;
+}
+.dark .pa{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 80px;
+}
+.dark .categories {
+    background: #404040;
+} */
