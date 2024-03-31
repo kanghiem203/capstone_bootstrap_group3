@@ -698,3 +698,6 @@ body a {
     transition: 0.3s;
     color: #fff;
 }
+ #diner:hover{
+    color: #ff6600;
+ }
