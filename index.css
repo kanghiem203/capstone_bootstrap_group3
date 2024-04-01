@@ -108,6 +108,8 @@ header input {
     bottom: 20px;
 }
 
+
+
 /* .fs-5{
     background-color: rgba(0, 0, 0, 0.112);
     position: relative;
@@ -118,7 +120,7 @@ header input {
     height: 86%;
 } */
 
-.title__item {
+/* .title__item {
     background-color: rgba(0, 0, 0, 0.11);
     position: relative;
     bottom: 86%;
@@ -136,7 +138,22 @@ header input {
 .title__item:hover {
     background-color: rgba(240, 248, 255, 0.09);
     cursor: pointer;
+} */
+
+/* 
+.categories  .list__categories1 .col{
+    border: #fcb900 1px solid;
+    background-color: rgba(0, 0, 0, 0.11);
+} */
+
+
+.categories .list__categories1 .col{
+    position: relative;
 }
+
+/* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.614) 0%, rgba(255, 255, 255, 0) 100%); */
+
+
 
 /* Star css about us Thẩm  */
 /* star achivement */
