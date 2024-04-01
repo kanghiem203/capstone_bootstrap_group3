@@ -592,7 +592,7 @@ section.w3_stats {
 /* Video */
  /* Footer */
  .w3l-footer-29-main {
-    background: var(--footer-bg);
+    background:#000;
 }
 .row {
     display: flex;
@@ -765,6 +765,60 @@ body a {
  {
  color:#fff;
 }
+/*  CSS VIDEO */
+.pause {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+    color: #ff6600;
+    border: transparent;
+    background: #fff;
+}
+.pause:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    background:#ff6600;
+    border: transparent;
+    color: #fff;
+}
+.pause{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+    color:#ff6600;
+    border: transparent;
+    background: #fff;
+}
+.pause:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    background:#ff6600;
+    border: transparent;
+    color: #fff;
+}
+
+/*  CSS VIDEO */
+/* CSS BTT */
+
+/* CSS BTT */
+
+
 /* css dark mode */
 /* .dark .aboutUS {
     background: #404040;

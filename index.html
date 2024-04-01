@@ -16,6 +16,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- POPUP -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
 
     <!-- FONT AWESOME -->
     <link
@@ -297,14 +299,22 @@
     </section>
 
     <!-- VIDEO - TRƯƠNG THẨM -->
-    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
-      <i class="fa-solid fa-play"></i>
-    </a>
-    
-    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-      <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+    <div class="parent-container">
+      <a href="https://player.vimeo.com/video/305185528"></a>
     </div>
-    
+    <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
+      <i class="fa-solid pause fa-play"></i>
+    </a>
+
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+      <iframe
+        src="https://player.vimeo.com/video/305185528"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen=""
+      ></iframe>
+    </div>
+
     <!-- BLOG - KA NGHIÊM -->
 
     <!-- SHARING (Testimonials - KA NGHIÊM) -->
@@ -432,7 +442,12 @@
         </div>
       </section>
       <!-- //copyright -->
+      <!-- btt -->
+      <!-- <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
+        <span class="fa fa-angle-up"></span>
+      </button> -->
     </footer>
+
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="/path/to/jquery.min.js"></script>
@@ -443,6 +458,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/video.js"></script>
+    <!-- JS POPUP  -->
+    <script src="js/video.js"></script>
+    <!-- POPUP -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
     <!-- thư viện jquery hiệu ứng số tăng  -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -457,5 +477,12 @@
     <script>
       $(".nu").counterUp();
     </script>
+    <script>
+      $(".test-popup-link").magnificPopup({
+        type: "image",
+        // other options
+      });
+    </script>
+
   </body>
 </html>

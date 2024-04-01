@@ -15,7 +15,3 @@ $(document).ready(function () {
       mainClass: "my-mfp-zoom-in"
     });
   });
-//   css dark mode
- .dark {
-    
- }
