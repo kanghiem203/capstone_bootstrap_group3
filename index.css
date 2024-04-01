@@ -345,6 +345,11 @@ header input {
 }
 
 /* Contact  */
+/* .contact{
+    position: relative;
+    top: 100px;
+    left: 0;
+} */
 .welcome-left {
     max-width: 700px;
     margin: 0 auto;
@@ -820,3 +825,35 @@ body a {
 .dark .categories {
     background: #404040;
 } */
+
+
+/* CATEGORIES 2 */
+.list__categories2 {
+    top: 50px;
+    left: 0;
+    height: 750px;
+    
+    
+}
+.categories .list__categories2 i{
+    color: #ff6600;
+    border: 0 solid;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.categories .list__categories2 .container .rounded-3:hover i{
+    color: white;
+    border: 0 solid #ff6600;
+    border-radius: 5px;
+    background-color: #ff6600;
+    
+}
+.categories .list__categories2 span{
+    color: #000;
+    transition: all 0.5s;
+    font-weight: 500;
+    
+}
+.categories .list__categories2 span:hover{
+    color: #ff6600;
+}
