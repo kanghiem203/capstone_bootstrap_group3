@@ -976,3 +976,42 @@ body a {
 .categories .list__categories2 span:hover {
     color: #ff6600;
 }
+
+/* Blog */
+.blog .list__item{
+    cursor: pointer;
+}
+.blog .list__item .detail {
+    position: relative;
+    bottom: 50px;
+}
+.blog .list__item .detail .item__left{
+    position: relative;
+    bottom: 20px;
+}
+.blog .list__item .detail .readMore{
+    position: relative;
+    bottom: 15px;
+    transition: all 0.5s;
+}
+.blog .list__item .detail .readMore:hover{
+    color: #ff6600;
+}
+.blog .list__item  .type__food{
+    position: relative;
+    bottom: 50px;
+    color: #ff6600;
+    transition: all 0.5s;
+}
+
+.blog .list__item  .type__food:hover{
+    color: #5C31AC;
+}
+.blog .list__item .title__item{
+    position: relative;
+    bottom: 50px;
+}
+
+/*  */
+
+
