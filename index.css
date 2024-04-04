@@ -1012,6 +1012,60 @@ body a {
     bottom: 50px;
 }
 
-/*  */
+/* sHARING */
+.carousel-inner .carousel-item{
+    height: 400px;
+    
+}
+.carousel-inner .carousel-item img{
+    width: 90px;
+    border-radius: 50% ;
+    margin: auto;
+}
+.carousel-inner .carousel-item .fa-quote-left{
+    position: relative;
+    left: 49%;
+    top: 10px;
+    font-size: 30px;
+    color: #ff6600;
+    
+}
+.carousel-inner .carousel-item .carousel-caption {
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+.carousel-inner .carousel-item .carousel-caption h5:first-of-type{
+    font-size: 25px;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        
+        margin: 10px;
+        position: relative;
+        left: 20px;
+        transition: all 0.5s;
+      
+   
+}
+.carousel-dark .carousel-indicators [data-bs-target]:hover{
+background-color: #FF6600;
+opacity: 3;
+}
 
-
+.carousel-indicators {
+    opacity: 1;
+  }
+  
+  [data-bs-theme=dark] .carousel-dark .carousel-indicators [data-bs-target], [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], .carousel-dark .carousel-indicators [data-bs-target], .carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--bs-gray);
+    opacity: 0.6;
+  }
+  
+  [data-bs-theme=dark] .carousel-dark [data-bs-target].active, [data-bs-theme=dark] .carousel [data-bs-target].active, .carousel-dark [data-bs-target].active, .carousel [data-bs-target].active {
+    background-color: var(--bs-orange);
+    opacity: 1;
+  }
